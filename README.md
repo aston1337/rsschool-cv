@@ -1,2 +1,2 @@
 # rsschool-cv
-Second start
+https://aston1337.github.io/rsschool-cv/cv
