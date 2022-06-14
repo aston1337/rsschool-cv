@@ -10,22 +10,4 @@
     font-family: inherit;
     vertical-align: baseline;
 }
-body {
-    width: 100%;
-}
-.container {
-    max-width: 1280px;
-    margin: 0 auto;
-}
-.flex-container {
-    display: flex;
-    flex-grow: 1;
-}
-.about-me {
-    background-color: orangered;
-    flex-grow: 1;
-}
-.experience {
-    background-color: aquamarine;
-    flex-grow: 2;
-}
+
