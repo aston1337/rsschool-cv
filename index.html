@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    <meta content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0"
           name="viewport">
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <link href="style.css" rel="stylesheet">
@@ -10,82 +10,100 @@
 </head>
 <body>
 <div class="container">
-    <header>
+    <header class="header">
         <h1>ANTON STARODUBKIN</h1>
         <nav>
-            <ul>
-                <li>Contacts</li>
-                <li>About me</li>
-                <li>Skills / Proficiency</li>
-                <li>Education</li>
-                <li>Code example</li>
+            <ul class="navigation">
+                <li><a href="#Contacts">Contacts</a></li>
+                <li><a href="#About">About me</a></li>
+                <li><a href="#Skills">Skills / Proficiency</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Code">Code example</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <div>
-                <img src="#" alt="my_photo">
-            </div>
+        <section id="Contacts">
+            <img alt="my_photo" class="my_photo" src="img/my_photo.jpg">
+            <h2>Contacts</h2>
             <ul>
                 <li>email: aston4ever@gmail.com</li>
                 <li>telegram: @aston1337</li>
-                <li>github</li>
-                <li>RS CV</li>
+                <li><a href="https://github.com/aston1337">github</a></li>
+                <li><a href="https://app.rs.school/cv/edit"> RS CV</a></li>
             </ul>
         </section>
-        <section>
+        <section id="About">
             <h2>About me</h2>
-            <p>I’am a crew attendant in past. Now trying to get new job, experience and friends. Looking for offers in Europe to relocate. I always wanted to live in another country and as the great man said:
+            <p>I’am a crew attendant in past. Now trying to get new job, experience and friends. Looking for offers in
+                Europe to relocate. I always wanted to live in another country and as the great man said:
                 “The way to get started is to quit talking and begin doing”
                 So now I am going to make my dream come true!</p>
         </section>
-        <section>
+        <section id="Skills">
             <h2>Skills / Proficiency</h2>
             <ul>
-                Skills / Proficiency
-                Hard skills
-                HTML
-                CSS
-                JS
-                Unity
-                C# (syntax only)
-                Photoshop
-                AfterEffects
-                Soft skills
-                honesty
-                learnability
-                cooperation
+                <li>Hard skills
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                        <li>Unity</li>
+                        <li>C# (syntax only)</li>
+                        <li>Photoshop</li>
+                        <li>AfterEffects</li>
+                    </ul>
+                </li>
+                <li>Soft skills
+                    <ul>
+                        <li>honesty</li>
+                        <li>learnability</li>
+                        <li>cooperation</li>
+                    </ul>
+                </li>
             </ul>
         </section>
-        <section>
+        <section id="Education">
             <h2>Education</h2>
             <ul>
-                Books and sources:
-                The definitive guide by Flanagan
-                Javascript.info
-                youtube.com
-                Video courses
-                The complete javascript course by Jonas Schmedtmann
-                modern javascript from the beginning by Brad Travercy
-                HTML CSS cources by Jonas Schmedtmann
+                <li>Books and sources
+                    <ul>
+                        <li>The definitive guide by Flanagan</li>
+                        <li>Javascript.info</li>
+                        <li>youtube.com</li>
+                    </ul>
+                </li>
+                <li>Video courses
+                    <ul>
+                        <li>The complete javascript course by Jonas Schmedtmann</li>
+                        <li>modern javascript from the beginning by Brad Travercy</li>
+                        <li>HTML CSS cources by Jonas Schmedtmann</li>
+                    </ul>
+                </li>
             </ul>
         </section>
-        <section>
+        <section id="Code">
             <h2>Code Example</h2>
-            function multiply(a, b){
-            return a * b
-            }
+            <code>function multiply(a, b){
+                return a * b
+                }</code>
+            <h2>My Works</h2>
+            <ul>
+                <li><a href="https://store.steampowered.com/app/1831320/Rescue_Team_Power_Eaters">Rescue Team Power Eaters</a></li>
+                <li><a href="https://store.steampowered.com/app/1579780/Brave_Deeds_of_Rescue_Team">Brave Deeds of Rescue Team</a></li>
+                <li><a href="https://store.steampowered.com/app/1644020/Incredible_Dracula_Legacy_of_the_Valkyries">Incredible Dracula Legacy of the Valkyries</a></li>
+                <li><a href="https://store.steampowered.com/app/1901560/Rescue_Team_Heist_of_the_Century">Rescue Team Heist of the Century</a></li>
+            </ul>
         </section>
     </main>
     <footer>
         <div>
-            <a href="#">My GitHub</a>
+            <a href="https://github.com/aston1337">My GitHub</a>
         </div>
         <div>
-            <a href="#"><img src="#" alt="RS_school"></a>
+            <a href="https://rs.school/js-stage0/"><img alt="RS_school" class="RS" src="img/rs_school.svg"></a>
         </div>
-        <p>&copy; 2022</p>
+        <p>&copy;2022</p>
     </footer>
 </div>
 </body>
