@@ -13,11 +13,14 @@
 }
 h1 {
     font-size: 35px;
+    font-family: "MS Gothic", sans-serif;
+    letter-spacing: 4px;
 }
 .container  {
     max-width: 1100px;
     margin: 0 auto;
     background-color: rgba(240,240,240,0.76);
+    box-shadow: -5px 0 5px rgba(235,235,235,0.76), 5px 0 5px rgba(235,235,235,0.76) ;
 }
 .header {
     display: flex;
@@ -29,13 +32,17 @@ h1 {
 }
 .navigation{
     display: flex;
-    gap: 40px;
+    gap: 30px;
+    font-family: "Roboto Light", sans-serif;
+    font-weight: bold;
+    font-size: small;
 
 }
 .my_photo{
     display: block;
     margin: 0 auto;
     margin-bottom: 40px;
+    box-shadow: -5px 5px 5px rgba(200,200,200,0.90), -5px -5px 5px rgba(200,200,200,0.90), 5px -5px 5px rgba(200,200,200,0.90), 5px 5px 5px rgba(200,200,200,0.90);
     width: 800px;
     border-radius: 50%;
 }
@@ -61,4 +68,10 @@ footer {
 }
 code {
     margin-bottom: 40px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: orangered;
 }
