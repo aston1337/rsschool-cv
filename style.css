@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    list-style: none;
+}
+h1 {
+    font-size: 35px;
+    font-family: "MS Gothic", sans-serif;
+    letter-spacing: 4px;
+}
+.container  {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: rgba(240,240,240,0.76);
+    box-shadow: -5px 0 5px rgba(235,235,235,0.76), 5px 0 5px rgba(235,235,235,0.76) ;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+    min-height: 100px;
+    background-color: rgba(235,235,235,0.76);
+}
+.navigation{
+    display: flex;
+    gap: 30px;
+    font-family: "Roboto Light", sans-serif;
+    font-weight: bold;
+    font-size: small;
+
+}
+.my_photo{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    box-shadow: -5px 5px 5px rgba(200,200,200,0.90), -5px -5px 5px rgba(200,200,200,0.90), 5px -5px 5px rgba(200,200,200,0.90), 5px 5px 5px rgba(200,200,200,0.90);
+    width: 800px;
+    border-radius: 50%;
+}
+h2  {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    font-family: sans-serif;
+}
+section {
+    margin-bottom: 40px;
+    padding: 0 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+    background-color: rgba(230,230,230,0.76);;
+}
+.RS {
+    min-width: 100px;
+}
+code {
+    margin-bottom: 40px;
+    font-family: monospace, sans-serif;
+}
+.code-container {
+    display: inline-block;
+    padding: 0 10px;
+    background-color: lightgrey;
+}
+a {
+    text-decoration: none;
+    color: royalblue;
+}
+a:hover{
+    color: orangered;
+}
+a:hover:visited {
+    color: orangered;
+}
+a:visited {
+    color: royalblue;
+}
+.about-me{
+    font-size: larger;
+}
+q {
+    font-style: italic;
+    color: grey;
+}
+.outer-list {
+    color: darkgray;
+    font-size: 23px;
+}
+.inner-list {
+    padding: 0 30px;
+    font-size: 18px;
+    color: black;
+}
+.git {
+    width: 100px;
+}
+.copy {
+    font-family: "Roboto Light", sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+}
