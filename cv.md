@@ -13,7 +13,7 @@
 
 ### About
 
-I'am a crew attendant in past. Now trying to get new job, experience and friends. Looking for offers in Europe to relocate. I always wanted to live in another country and as the great man said:
+I'm a crew attendant in the past. Now trying to get new job, experience and friends. Looking for offers in Europe to relocate. I always wanted to live in another country and as the great man said:
 >"The way to get started is to quit talking and begin doing"
 
 So now I am going to make my dream come true!
